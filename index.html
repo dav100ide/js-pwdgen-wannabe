@@ -18,6 +18,41 @@
    <body>
       <h1 class="text-center">Password generator</h1>
       <h2></h2>
+      <hr />
+      <div class="container">
+         <h1>BONUS</h1>
+         <p class="fs-3"></p>
+         <div class="card">
+            <div class="card-header fw-bold text-center">password generator 2.0 senza i prompt fastidiosi</div>
+            <form action="">
+               <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                     <div class="form-floating">
+                        <input type="text" class="form-control" id="user-name" placeholder="come ti chiami?" />
+                        <label for="user-name">come ti chiami?</label>
+                     </div>
+                  </li>
+                  <li class="list-group-item">
+                     <div class="form-floating">
+                        <input type="text" class="form-control" id="user-surname" placeholder="come ti chiami di cognome?" />
+                        <label for="user-surname">come ti chiami di cognome?</label>
+                     </div>
+                  </li>
+                  <li class="list-group-item">
+                     <div class="form-floating">
+                        <input type="text" class="form-control" id="user-color" placeholder="qual è il tuo colore preferito?" />
+                        <label for="user-color">qual è il tuo colore preferito?</label>
+                     </div>
+                  </li>
+                  <li class="list-group-item text-center">
+                     <button id="new-password" class="btn btn-secondary">Richiedi password generata</button>
+                  </li>
+               </ul>
+            </form>
+            <div id="generated-password"></div>
+         </div>
+      </div>
+
       <!-- bootstrap js -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
       <!-- /bootstrap js -->
